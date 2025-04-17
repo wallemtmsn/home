@@ -5,51 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeekCode | Soluções Digitais</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="hero">
+  <header class="topbar">
     <div class="container">
-      <h1>Desenvolvemos o futuro digital da sua empresa.</h1>
-      <p>Aplicativos e soluções sob medida para pequenas empresas e profissionais liberais.</p>
-      <a href="https://wa.me/5522998303157" class="cta">Solicite seu orçamento</a>
+      <div class="logo">GeekCode</div>
+      <nav class="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </div>
   </header>
 
-  <section class="services">
+  <section class="hero">
+    <div class="container">
+      <h1>Transformamos ideias em <span class="gradient-text">soluções digitais</span>.</h1>
+      <p>Desenvolvimento de sistemas e aplicativos sob medida para pequenas empresas e profissionais liberais.</p>
+      <a href="https://wa.me/5522998303157" class="cta"><i class="fab fa-whatsapp"></i> Solicite seu orçamento</a>
+    </div>
+  </section>
+
+  <section id="servicos" class="services">
     <div class="container">
       <h2>Serviços</h2>
-      <ul>
-        <li>📱 Desenvolvimento de Aplicativos Android</li>
-        <li>💻 Sistemas Web Personalizados</li>
-        <li>🧠 Consultoria em TI e Transformação Digital</li>
-        <li>🎓 Mentoria para estudantes de programação</li>
-      </ul>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Apps Android</h3>
+          <p>Desenvolvimento de aplicativos rápidos, funcionais e com visual moderno.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Sistemas Web</h3>
+          <p>Soluções personalizadas com painéis administrativos e controle completo.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-brain"></i>
+          <h3>Consultoria em TI</h3>
+          <p>Auxílio técnico para transformar e otimizar o digital na sua empresa.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Mentoria</h3>
+          <p>Ajuda para estudantes em projetos e iniciação no mundo da programação.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="benefits">
+  <section id="sobre" class="sobre">
     <div class="container">
-      <h2>Por que escolher a GeekCode?</h2>
-      <ul>
-        <li>✅ Atendimento direto com o desenvolvedor</li>
-        <li>✅ Soluções sob medida</li>
-        <li>✅ Entrega no prazo</li>
-        <li>✅ Suporte e acompanhamento</li>
-      </ul>
+      <h2>Sobre a GeekCode</h2>
+      <p>Somos apaixonados por tecnologia e buscamos criar soluções digitais que realmente funcionam. Atuamos com foco no cliente, construindo sistemas sob medida com excelência técnica e visual moderno.</p>
     </div>
   </section>
 
-  <section class="cta-section">
+  <section id="contato" class="cta-section">
     <div class="container">
       <h2>Pronto para transformar sua ideia em realidade?</h2>
-      <a href="https://wa.me/5522998303157" class="cta">Quero um orçamento</a>
+      <a href="https://wa.me/5522998303157" class="cta"><i class="fab fa-whatsapp"></i> Fale agora pelo WhatsApp</a>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p>Contato: (22) 99830-3157 | contato@geekc0de.com</p>
+      <p><i class="fas fa-envelope"></i> contato@geekc0de.com</p>
+      <p><i class="fab fa-whatsapp"></i> (22) 99830-3157</p>
       <p>&copy; 2025 GeekCode. Todos os direitos reservados.</p>
     </div>
   </footer>
