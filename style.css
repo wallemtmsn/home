@@ -3,8 +3,8 @@
 body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-  background: #0f0f0f;
-  color: #fff;
+  background: #151515;
+  color: #f0f0f0;
 }
 
 .container {
@@ -15,30 +15,32 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #1c1f2b, #2b3d50, #3d5066);
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 4rem 1rem;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
-  color: #ccc;
+  color: #bbb;
 }
 
 .cta {
   background-color: #00c9ff;
   color: #000;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
+  font-size: 0.95rem;
 }
 
 .cta:hover {
@@ -46,26 +48,26 @@ body {
 }
 
 section h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #00c9ff;
   display: inline-block;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
 }
 
 .services, .benefits, .cta-section {
-  background-color: #1a1a1a;
-  padding: 3rem 1rem;
+  background-color: #222;
+  padding: 2.5rem 1rem;
   margin-top: 2rem;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 201, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 201, 255, 0.1);
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .footer {
@@ -73,10 +75,20 @@ ul {
   background-color: #111;
   padding: 2rem 1rem;
   margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #777;
+  font-size: 0.85rem;
+  color: #888;
 }
 
 .footer p {
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
+}
+
+.topbar {
+  background-color: #0f0f0f;
+  color: #00c9ff;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 201, 255, 0.1);
+  text-align: left;
 }
